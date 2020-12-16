@@ -185,7 +185,7 @@ html {
 }
 
 .Magenta {
-    background-color:   #99CC99;
+    background-color:   rgb(100, 204, 153);
 }
 
 .Blue {
@@ -193,5 +193,9 @@ html {
 }
 
 .Lime {
-    background-color: #996699;
+    background-color: rgb(90, 204, 187);
+}
+
+.BLue {
+    background-color: rgb(200, 90, 153);
 }

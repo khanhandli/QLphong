@@ -40,8 +40,13 @@
 }
 
 .info--icon {
-	font-size: 1.5rem;
+	font-size: 1.6rem;
+	color: white;
+	text-decoration: none;
+}
 
+.info--icon:hover {
+	opacity: 0.7;
 }
 
 .nav {
@@ -126,8 +131,11 @@
 	margin-top: 30px;
 	border-radius: 10px;
 	overflow: hidden;
+	cursor: pointer;
 }
-
+.detail__container:hover {
+	opacity: 0.7;
+}
 .detail__container > span {
 	font-size: 1.4rem;
 	color: white;
@@ -136,7 +144,9 @@
 
 }
 
-.detail--text{	
+.detail--text > a{	
+	text-decoration: none;
+	color: white;
 }
 
 .detail--icon {
@@ -218,8 +228,8 @@ th {
 	width: 40%;
     height: calc(1.5em + .75rem + 2px);
     padding: .375rem .75rem;
-    font-size: 1rem;
-    font-weight: 400;
+    font-size: 1.4rem;
+    font-weight: 500;
     line-height: 1.5;
     color: #495057;
     background-color: #fff;
@@ -246,4 +256,41 @@ th {
 
 .row > .a {
 	margin: 10px 0 0 10px;
+}
+
+/* input {
+	font-size: 1.4rem;
+	font-weight: 500;
+} */
+
+.input-css {
+	width: 40%;
+	font-size: 1.4rem;
+    color: #495057;
+	font-weight: 500;
+}
+
+td,th {
+
+	text-align: center;
+}
+td {
+		font-weight: 400;
+	font-size: 1.3rem;
+}
+
+.form-timkiem {
+	display: flex;
+}
+
+.btn-timkiem {
+	border: none; 
+	outline: none;
+	padding: 4px 10px;
+	border-radius: 4px;
+	display: none;
+}
+
+#search:checked ~ .btn-timkiem {
+	display: inline-block;
 }

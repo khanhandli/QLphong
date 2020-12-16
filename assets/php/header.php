@@ -14,6 +14,7 @@
         href="../fonts/fontawesome-free-5.12.1-web/fontawesome-free-5.12.1-web/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=vietnamese"
         rel="stylesheet">
+    <script src="../js/jquery.js"></script>
 </head>
 
 <body>
@@ -29,6 +30,6 @@
             <div class="header__info">
                 <i class="far fa-user info--icon"></i>
                 <span class="header__info--text">Trường</span>
-                <i class="fas fa-sign-out-alt info--icon"></i>
+                <a href="../../index.php"></a><i class="fas fa-sign-out-alt info--icon"></i>
             </div>
         </header>
