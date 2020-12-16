@@ -1,37 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/bootstrap-4.5.3-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/base.css">
-    <link rel="stylesheet" href="./assets/css/main.css">
-    <link rel="stylesheet" href="./assets/css/grid.css">
-    <link rel="stylesheet"
-        href="./assets/fonts/fontawesome-free-5.12.1-web/fontawesome-free-5.12.1-web/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=vietnamese"
-        rel="stylesheet">
-</head>
-
-<body>
-    <div class="app">
-        <header class="header">
-            <div class="header__title">
-                <div class="header__title--logo">
-                    <img src="assets/img/768px-HUNRE_Logo.png" class="logo__img" alt="">
-                </div>
-                <span class="header__title--text">Hệ thống quản lý phòng học của trường Đại học  Tài Nguyên và Môi Trường Hà Nội </span>
-            </div>
-
-            <div class="header__info">
-                <i class="far fa-user info--icon"></i>
-                <span class="header__info--text">Trường</span>
-                <i class="fas fa-sign-out-alt info--icon"></i>
-            </div>
-        </header>
+<?php 
+    require_once('header.php');
+ ?>
         <div class="grid wide">
             <div class="row">
                 <div class="c-3">
@@ -108,31 +77,9 @@
   
     </div>
 
-    <nav class="nav">
-        <ul class="nav__list">
-            <li class="nav__list--item">
-                <i class="fas fa-home nav--icon"></i>
-                <span class="nav__item--text">Trang chủ</span>
-            </li>
-            <li class="nav__list--item">
-                <i class="fas fa-clipboard-list nav--icon"></i>
-                <span class="nav__item--text">Danh sách phòng học</span>
-            </li>
-            <li class="nav__list--item">
-                <i class="fas fa-users nav--icon"></i>
-                <span class="nav__item--text">Danh sách giáo viên</span>
-            </li>
-            <li class="nav__list--item">
-                <i class="far fa-calendar-alt nav--icon"></i>
-                <span class="nav__item--text">Lịch sử dụng phòng</span>
-            </li>
-            <li class="nav__list--item">
-                <i class="far fa-bell nav--icon"></i>
-                <span class="nav__item--text">Thông báo</span>
-            </li>
-        </ul>
-        <div class="nav__close">X</div>
-    </nav>
+    <?php 
+    require_once('nav.php')
+     ?>
 
     <script type="text/javascript" src="./assets/js/test.js"></script>
 </body>
