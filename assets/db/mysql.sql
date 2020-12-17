@@ -1,3 +1,5 @@
+--Tao db QLPH
+
 
 --Tao user dang nhap
 
@@ -55,6 +57,6 @@ CREATE TABLE SuDungPhong(
 	HocKy VARCHAR(50)
 );
 
-
--- INSERT INTO LopHoc(TenLop,GVCN,NgayBD,NgayKT,LichHoc,DoTuoiTB,SoBuoi,SiSo)
---     			VALUES('Dh8c4', 'nguyen van a', '01/01/2002', '02/02/2020', 'cas tuan', '20','23', '45');
+--them user
+INSERT INTO user
+	VALUES('truong','123')

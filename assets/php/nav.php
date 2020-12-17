@@ -2,7 +2,7 @@
         <ul class="nav__list">
             <li class="nav__list--item">
                 <i class="fas fa-home nav--icon"></i>
-                <span class="nav__item--text"><a href="index.php">Home</a></span>
+                <span class="nav__item--text"><a href="../../assets/php/index.php">Home</a></span>
             </li>
             <li class="nav__list--item">
                 <i class="fas fa-clipboard-list nav--icon"></i>

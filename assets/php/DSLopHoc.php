@@ -41,9 +41,9 @@
         if (isset($_POST['id'])) {
             $id1 = $_POST['id'];
         }
-    	if ($id1!= '') {
+    	if ($id1 != '') {
     		//update 
-    		$sql = "UPDATE LopHoc SET  TenLop= '$tenlop', GVCN ='$gvcn',  NgayBD= '$ngaybd', NgayKT ='$ngaykt', LichHoc='$lichhoc', DoTuoiTB='$dotuoitb',SoBuoi = '$sobuoi', SiSo = '$siso' WHERE id = " .$id;
+    		$sql = "UPDATE LopHoc SET  TenLop= '$tenlop', GVCN ='$gvcn',  NgayBD= '$ngaybd', NgayKT ='$ngaykt', LichHoc='$lichhoc', DoTuoiTB='$dotuoitb',SoBuoi = '$sobuoi', SiSo = '$siso' WHERE id = " .$id1;
     	}else if($tenlop != ''){ 
     		//insert
     		$sql = "INSERT INTO LopHoc(TenLop,GVCN,NgayBD,NgayKT,LichHoc,DoTuoiTB,SoBuoi,SiSo)
