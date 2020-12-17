@@ -2,6 +2,7 @@
     require_once('../php/header.php');
     require_once('../php/dbhelp.php');
     $id = '';
+    $maphong2 = $tenphong2 = $soluong2 = $loaiphong2 = "";
      if (isset($_GET['id'])) {
         $id = $_GET['id'];
         

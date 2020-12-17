@@ -29,5 +29,10 @@
                 <span class="nav__item--text"><a href="../../assets/php/ThongBao.php">Thông báo</a></span>
             </li>
         </ul>
-        <div class="nav__close">X</div>
+        <div class="nav__close" onclick="Click()">X</div>
     </nav>
+    <script>
+        function Click() {
+            alert('Click Cho Zuiiii!!')
+        }
+    </script>

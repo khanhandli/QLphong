@@ -1,7 +1,7 @@
 <?php 
 	require_once('header.php');
 	require_once('dbhelp.php');
-    $id1 = $maphong = $tenphong = $soluong = $loaiphong = $maphong2 = $tenphong2 = $soluong2 = $loaiphong2 = "";
+    $id1 = $maphong = $tenphong = $soluong = $loaiphong = "";
     if (!empty($_POST)) {
     	if (isset($_POST['maphong'])) {
     		$maphong = $_POST['maphong'];

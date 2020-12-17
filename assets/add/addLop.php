@@ -2,6 +2,7 @@
 	require_once('../php/header.php');
     require_once('../php/dbhelp.php');
     $id = '';
+    $tenlop2 = $gvcn2 = $ngaybd2 = $ngaykt2 = $lichhoc2 = $dotuoitb2 = $sobuoi2 = $siso2 = "";
     if (isset($_GET['id'])) {
         $id = $_GET['id'];
         

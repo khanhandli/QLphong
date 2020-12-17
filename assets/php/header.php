@@ -30,6 +30,6 @@
             <div class="header__info">
                 <i class="far fa-user info--icon"></i>
                 <span class="header__info--text">Trường</span>
-                <a href="../../index.php"></a><i class="fas fa-sign-out-alt info--icon"></i>
+                <a href="../../index.php"><i class="fas fa-sign-out-alt info--icon"></i></a>
             </div>
         </header>

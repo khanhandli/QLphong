@@ -1,7 +1,7 @@
 <?php 
 	require_once('header.php');
 	require_once('dbhelp.php');
-    $id1 = $tenlop = $gvcn = $ngaybd = $ngaykt = $lichhoc = $dotuoitb = $sobuoi = $siso = $tenlop2 = $gvcn2 = $ngaybd2 = $ngaykt2 = $lichhoc2 = $dotuoitb2 = $sobuoi2 = $siso2 = "";
+    $id1 = $tenlop = $gvcn = $ngaybd = $ngaykt = $lichhoc = $dotuoitb = $sobuoi = $siso = "";
     if (!empty($_POST)) {
     	if (isset($_POST['tenlop'])) {
     		$tenlop = $_POST['tenlop'];
@@ -44,12 +44,10 @@
     	if ($id1!= '') {
     		//update 
     		$sql = "UPDATE LopHoc SET  TenLop= '$tenlop', GVCN ='$gvcn',  NgayBD= '$ngaybd', NgayKT ='$ngaykt', LichHoc='$lichhoc', DoTuoiTB='$dotuoitb',SoBuoi = '$sobuoi', SiSo = '$siso' WHERE id = " .$id;
-            echo "<script type='text/javascript'>alert('UPDATE');</script>";
     	}else if($tenlop != ''){ 
     		//insert
     		$sql = "INSERT INTO LopHoc(TenLop,GVCN,NgayBD,NgayKT,LichHoc,DoTuoiTB,SoBuoi,SiSo)
     			VALUES('$tenlop', '$gvcn', '$ngaybd', '$ngaykt', '$lichhoc', '$dotuoitb','$sobuoi', '$siso')";
-            echo "<script type='text/javascript'>alert('INSERT');</script>";
 
     	}
     	execute($sql);

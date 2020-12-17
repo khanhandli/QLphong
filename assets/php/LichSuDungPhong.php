@@ -1,7 +1,7 @@
 <?php 
     require_once('header.php');
     require_once('dbhelp.php');
-    $id1 = $ngay = $thoigianbatdau = $thoigianketthuc = $loaiphong = $tenmh = $tenlop = $tengv = $diadiem = $hocky = $ngay2 = $thoigianbatdau2 = $thoigianketthuc2 = $loaiphong2 = $tenmh2 = $tenlop2 = $tengv2 = $diadiem2 =$hocky2 = "";
+    $id1 = $ngay = $thoigianbatdau = $thoigianketthuc = $loaiphong = $tenmh = $tenlop = $tengv = $diadiem = $hocky = '';
     if (!empty($_POST)) {
         if (isset($_POST['ngay'])) {
             $ngay = $_POST['ngay'];
@@ -68,7 +68,16 @@
             			<div class="title__function">
             				<form action="" method="GET" class="form-timkiem">
                                 <input type="checkbox" hidden id="search"> 
-                                <input type="text" class="form-control1" name="timkiem" placeholder="Tìm kiếm tên ngày đăng kí phòng học">            
+                                <!-- <input type="text" class="form-control1" name="timkiem" placeholder="Tìm kiếm tên ngày đăng kí phòng học"> -->  
+                                <select class="form-control1" name="timkiem" id="timkiem" placeholder="Tìm kiếm tên ngày đăng kí phòng học">
+                                    <option value="Thứ 2">Thứ 2</option>
+                                    <option value="Thứ 3">Thứ 3</option>
+                                    <option value="Thứ 4">Thứ 4</option>
+                                    <option value="Thứ 5">Thứ 5</option>
+                                    <option value="Thứ 6">Thứ 6</option>
+                                    <option value="Thứ 7">Thứ 7</option>
+                                    <option value="Chủ Nhập">Chủ Nhật</option>
+                                </select>          
                                 <button class="btn-timkiem">Tìm</button>
                             </form>
             			    <label for="search" class="fas fa-search function--icon"></label>

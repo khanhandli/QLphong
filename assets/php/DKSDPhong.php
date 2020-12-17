@@ -2,6 +2,7 @@
     require_once('../php/header.php');
     require_once('../php/dbhelp.php');
     $id ='';
+    $ngay2 = $thoigianbatdau2 = $thoigianketthuc2 = $loaiphong2 = $tenmh2 = $tenlop2 = $tengv2 = $diadiem2 =$hocky2 = "";
        if (isset($_GET['id'])) {
         $id = $_GET['id'];
         
@@ -54,7 +55,7 @@
                                                value="<?=$thoigianbatdau2?>">
                             </div>
                             <div class="form__input">
-                                <label for="thoigianketthuc">Thời gian bắt đầu</label>
+                                <label for="thoigianketthuc">Thời gian kết thúc</label>
                                 <!-- <input class="form-control2" type="text" name="thoigianketthuc" id="thoigianketthuc" value="<?=$thoigianketthuc2?>"> -->
                                 <input type="time" class="input-css" id="thoigianketthuc" name="thoigianketthuc"
                                                value="<?=$thoigianketthuc2?>">

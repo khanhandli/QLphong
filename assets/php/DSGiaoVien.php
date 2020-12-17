@@ -1,7 +1,7 @@
 <?php 
 	require_once('header.php');
 	require_once('dbhelp.php');
-    $id1 = $magv = $tengv = $khoaql = $bomonql = $magv2 = $tengv2 = $khoaql2 = $bomonql2 = "";
+    $id1 = $magv = $tengv = $khoaql = $bomonql =  "";
     if (!empty($_POST)) {
     	if (isset($_POST['magv'])) {
     		$magv = $_POST['magv'];

@@ -43,6 +43,7 @@
 	font-size: 1.6rem;
 	color: white;
 	text-decoration: none;
+	cursor: pointer;
 }
 
 .info--icon:hover {
